@@ -7,7 +7,7 @@ A tiny, scalar-valued automatic differentiation engine with a dynamic computatio
 * **Dynamic Graph Construction:** Tracks mathematical operations dynamically using pointer-based dependency trees.
 * **Automated Backpropagation:** Implements the chain rule automatically via recursive topological sorting.
 * **Modular Neural Network Components:** Includes object-oriented abstractions for individual `Neurons`, full `Layers`, and sequential `MLPs`.
-* **Standard Optimizations:** Features generalized type-fallback operators (`__radd__`, `__rsub__`) to support fluid cross-operations between custom nodes and standard numeric integers/floats.
+* **Standard Optimizations:** Features generalized type-fallback operators (`__radd__`) to support fluid cross-operations between custom nodes and standard numeric integers/floats.
 
 ## 🛠️ Tech Architecture
 
