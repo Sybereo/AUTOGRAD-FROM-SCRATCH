@@ -17,9 +17,9 @@ A tiny, scalar-valued automatic differentiation engine with a dynamic computatio
 
 ## 📦 Usage Example
 
-```python
-from micrograd_engine import MLP, Value
+Since all components are built from scratch, they run natively within the notebook cells without external dependencies:
 
+```python
 # 1. Initialize a neural network (3 inputs, two hidden layers of 4, 1 output)
 n = MLP(3, [4, 4, 1])
 
